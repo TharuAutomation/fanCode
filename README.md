@@ -70,30 +70,5 @@ Before running the tests, make sure you have the following installed:
            script:
              - mvn clean test
 
-## Project Structure
-   fanCode/
-   ├── src/
-   │   ├── main/
-   │   │   └── java/
-   │   │       ├── utils/
-   │   │       │   └── ApiUtils.java
-   │   │       │   └── ErrorCaptureUtil.java
-   │   ├── test/
-   │   │   ├── resources/
-   │   │   │   └── features/
-   │   │   │       └── fancode_todo_testdata.feature
-   │   │   │   └── output/
-   │   │   │   └── config.properties
-   │   │   │   └── cucumber.properties
-   │   │   ├── java/
-   │   │   │   ├── runner/
-   │   │   │   │   └── TestRunner.java
-   │   │   │   ├── stepdefs/
-   │   │   │   │   └── TodoStepDefs.java
-   │   │   │       └── Hooks.java
-   ├── target/
-   │   ├── extent-report.html
-   │   ├── logs/
-   │   └── cucumber-reports/
-   ├── pom.xml
-   └── README.md
+## 📁 Project Structure
+fanCode/ ├── src/ │ ├── main/ │ │ └── java/ │ │ └── utils/ │ │ ├── ApiUtils.java │ │ └── ErrorCaptureUtil.java │ ├── test/ │ ├── resources/ │ │ ├── features/ │ │ │ └── fancode_todo_testdata.feature │ │ ├── output/ │ │ ├── config.properties │ │ └── cucumber.properties │ │ ├── java/ │ │ ├── runner/ │ │ │ └── TestRunner.java │ │ ├── stepdefs/ │ │ │ └── TodoStepDefs.java │ │ └── Hooks.java │ ├── target/ │ ├── extent-report.html │ ├── logs/ │ └── cucumber-reports/ │ ├── pom.xml └── README.md
